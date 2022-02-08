@@ -10,3 +10,17 @@
 7. chain
 8. isslice ```itertools.isslice(range(10),start,end)```
 9. selectors ```itertools.selectors(list,boolean_list)```
+
+## Clean Code using [virtualenv](https://drive.google.com/file/d/1mDxSIwOwrXuMxydZ_huK8jiJJl4eQixG/view?usp=sharing) in python
+
+1. How to install pip
+```curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py```
+```python3 get-pip.py```
+2. Install virtualEnv
+```pip install virtualenv```
+3. Create VirtualEnv
+```virtualenv env```
+4. Activate VirtualEnv
+```. env\bin\activate```
+
+## Setting up Docker config for django projects
