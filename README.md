@@ -23,4 +23,4 @@
 4. Activate VirtualEnv
 ```. env\bin\activate```
 
-## Setting up Docker config for django projects
+## Setting up ![](DockerFile) config for django projects
