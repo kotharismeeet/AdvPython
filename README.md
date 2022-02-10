@@ -23,4 +23,34 @@
 4. Activate VirtualEnv
 ```. env\bin\activate```
 
+## [Event Loops](https://www.youtube.com/watch?v=8zKuNo4ay8E) in [python](https://www.youtube.com/watch?v=t5Bo1Je9EmE&t=873s)
+
+Why do we need Callback Queue?
+```
+print('Starts')
+
+def fun():
+  sleep(5)
+  print('Timeout')
+ 
+print('End')
+```
+
+```
+import asyncio
+
+async def main():
+  print('Searce')
+  task= asyncio.create_task((foo('text'))
+  awit asyncio.sleep(.5)
+  print('finished')
+  
+ async def foo(text):
+  print(text)
+  await asyncio.sleep(10)
+  
+ asyncio.run(main())
+
+```
+
 ## Setting up ![](DockerFile) config for django projects
